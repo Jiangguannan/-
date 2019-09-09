@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Random;
 
 public class StringUtil {
+	//toHtml转换
 	public static String toHtml(String src) {
 		String str = src.replaceAll(System.getProperty("line.separator"), "|")	;
 		String[] split = str.split("\\|");
